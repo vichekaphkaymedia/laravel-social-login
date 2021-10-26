@@ -71,13 +71,19 @@
                                     @endif
                                 </div>
                             </div>
-                            <h5 class="text-center">Or</h5>
-
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <a href="{{ route('social_login.redirect','github') }}" class="btn btn-success">Login with
-                                        Github</a>
+                            <hr>
+                            <div class="row display-flex justify-content-center">
+                                <br>
+                                <div class="text-center social-btn">
+                                    <a href="{{ route('social_login.redirect','twitter') }}"
+                                       class="btn btn-info btn-block"><i class="fa fa-twitter"></i> Sign in with <b>Twitter</b></a>
+                                    <a href="{{ route('social_login.redirect','github') }}"
+                                       class="btn btn-success btn-block"><i class="fa fa-github"></i> Sign in with <b>Github</b></a>
+                                    <a href="{{ route('social_login.redirect','google') }}"
+                                       class="btn btn-danger btn-block"><i class="fa fa-google"></i> Sign in
+                                        with <b>Google</b></a>
                                 </div>
+
                             </div>
                         </form>
                     </div>
