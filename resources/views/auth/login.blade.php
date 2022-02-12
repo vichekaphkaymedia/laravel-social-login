@@ -82,6 +82,9 @@
                                     <a href="{{ route('social_login.redirect','google') }}"
                                        class="btn btn-danger btn-block"><i class="fa fa-google"></i> Sign in
                                         with <b>Google</b></a>
+                                    <a href="{{ route('social_login.redirect','facebook') }}"
+                                       class="btn btn-danger btn-block"><i class="fa fa-google"></i> Sign in
+                                        with <b>Facebook</b></a>
                                 </div>
 
                             </div>

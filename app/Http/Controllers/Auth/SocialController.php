@@ -33,7 +33,7 @@ class SocialController extends Controller
 
             // check user exist or create if user is not exist
             $user = User::firstOrCreate([
-                'email' => $social_user->getEmail()
+                'email' => $social_user->email,
             ], [
                 'email' => $social_user->getEmail(),
                 'name' => $social_user->getName()
